@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Add TextView to display the date -->
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Set the Date"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <!-- Add CalenderView to display the Calender -->
+    <CalendarView
+        android:id="@+id/calender"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CalendarView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="40dp"
+        app:fabSize="normal"
+        android:backgroundTint="@color/blue"
+        app:elevation="6dp"
+        android:src="@drawable/ic_baseline_plus"
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

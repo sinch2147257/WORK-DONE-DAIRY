@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recylcerView" type="id" />
+    <item name="datedis" type="id"/>
+    <item name="portion" type="id"/>
+</resources>

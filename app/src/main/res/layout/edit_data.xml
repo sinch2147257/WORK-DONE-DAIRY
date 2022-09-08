@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the date"
+        android:inputType="text"
+        android:id="@+id/edit_date"/>
+
+    <EditText
+        android:id="@+id/edit_fot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:hint="Enter from time"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_tot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="122dp"
+        android:hint="Enter the To Time"
+        android:inputType="text"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/edit_classn"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="177dp"
+        android:hint="Enter the Class "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_portion"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="19dp"
+        android:hint="Enter the Portion"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:inputType="text"
+        android:id="@+id/edit_id"
+        />
+
+</RelativeLayout>
